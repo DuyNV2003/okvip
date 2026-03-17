@@ -52,9 +52,9 @@ export default function Page() {
       {/* Middle Flags Section */}
       <div className="relative z-10 flex flex-wrap justify-center gap-6 md:gap-12 my-8 md:my-16 w-full max-w-5xl">
         <FlagItem country="VIỆT NAM" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/Vietnam.gif" />
-        <FlagItem country="BRAZIL" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/brazil.gif" />
-        <FlagItem country="THAILAND" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/Thailan.gif" />
-        <FlagItem country="TURKEY" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/Turkiye.gif" />
+        <FlagItem country="BRAZIL" link="https://m.sc880.vip/register?id=930370357" imageSrc="/images/brazil.gif" />
+        <FlagItem country="THAILAND" link="https://m.sc887.vip/home/register?id=930370357" imageSrc="/images/Thailan.gif" />
+        <FlagItem country="TURKEY" link="https://sc882.cc/home/register?id=930370357" imageSrc="/images/Turkiye.gif" />
         
       </div>
 
