@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: ' Chào mừng đến với các máy chủ chính thức',
   description: 'Là những máy chủ uy tín nhất hiện nay, bảo mật nạp rút nhanh',
   icons: {
-    icon: 'images/favicon.ico', // Bạn có thể đổi thành '/images/logo.png' hoặc đường dẫn ảnh của bạn
+    icon: '/images/favicon.ico', // Bạn có thể đổi thành '/images/logo.png' hoặc đường dẫn ảnh của bạn
   },
 };
 
