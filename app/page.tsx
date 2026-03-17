@@ -15,7 +15,7 @@ export default function Page() {
           className="absolute top-0 left-0 w-full h-full object-cover brightness-50"
         >
           {/* Bạn hãy tải file video lên thư mục public và đổi tên thành background.mp4 */}
-          <source src="/background.mp4" type="video/mp4" />
+          <source src="/images/0317(1).mp4" type="video/mp4" />
           Trình duyệt của bạn không hỗ trợ thẻ video.
         </video>
         {/* Dark overlay for better contrast */}
