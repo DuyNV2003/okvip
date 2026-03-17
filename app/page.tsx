@@ -5,16 +5,19 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <main className="relative min-h-screen w-full flex flex-col items-center justify-between py-6 px-4 overflow-hidden font-sans">
-      {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?q=80&w=2000&auto=format&fit=crop"
-          alt="Stadium Background"
-          fill
-          className="object-cover brightness-50"
-          priority
-          referrerPolicy="no-referrer"
-        />
+      {/* Background Video */}
+      <div className="absolute inset-0 -z-10 overflow-hidden bg-black">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover brightness-50"
+        >
+          {/* Bạn hãy tải file video lên thư mục public và đổi tên thành background.mp4 */}
+          <source src="/background.mp4" type="video/mp4" />
+          Trình duyệt của bạn không hỗ trợ thẻ video.
+        </video>
         {/* Dark overlay for better contrast */}
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
