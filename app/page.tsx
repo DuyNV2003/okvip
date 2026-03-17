@@ -93,7 +93,7 @@ function FlagItem({ country, link, imageSrc }: { country: string, link?: string,
       className="flex flex-col items-center gap-2 md:gap-3 group cursor-pointer w-20 md:w-28 border-none bg-transparent p-0 outline-none"
     >
       <div className="w-20 h-20 md:w-28 md:h-28 rounded-full shadow-[inset_-10px_-10px_20px_rgba(0,0,0,0.6),inset_10px_10px_20px_rgba(255,255,255,0.2),0_10px_20px_rgba(0,0,0,0.5)] flex items-center justify-center relative overflow-hidden group-hover:scale-110 transition-transform duration-300">
-        <div className="w-full h-full animate-spin-y relative">
+        <div className="w-full h-full relative">
           <Image 
             src={imageSrc} 
             alt={`${country} flag`} 
