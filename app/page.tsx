@@ -48,11 +48,11 @@ export default function Page() {
 
       {/* Middle Flags Section */}
       <div className="relative z-10 flex flex-wrap justify-center gap-6 md:gap-12 my-8 md:my-16 w-full max-w-5xl">
-        <FlagItem country="VIỆT NAM" link="https://okvip.com/vn" imageSrc="/images/vietnam.gif" />
-        <FlagItem country="BRAZIL" link="https://okvip.com/br" imageSrc="/images/brazil.gif" />
-        <FlagItem country="THAILAND" link="https://okvip.com/th" imageSrc="/images/thailand.gif" />
-        <FlagItem country="TURKEY" link="https://okvip.com/tr" imageSrc="/images/turkey.gif" />
-        <FlagItem country="SINGAPORE" link="https://okvip.com/sg" imageSrc="/images/singapore.gif" />
+        <FlagItem country="VIỆT NAM" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/Vietnam.gif" />
+        <FlagItem country="BRAZIL" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/brazil.gif" />
+        <FlagItem country="THAILAND" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/Thailan.gif" />
+        <FlagItem country="TURKEY" link="https://www.sc88a2.cc/home/register?id=930370357" imageSrc="/images/Turkiye.gif" />
+        
       </div>
 
       {/* Bottom Banner Section */}
@@ -63,7 +63,7 @@ export default function Page() {
         */}
         <div className="relative w-full aspect-[10/2] md:aspect-[10/1.5] flex justify-center">
            <Image 
-             src="/images/banner.png" 
+             src="/images/bannerads5.gif" 
              alt="Mega Live Banner" 
              fill 
              className="object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)] hover:scale-[1.02] transition-transform duration-300 cursor-pointer"
